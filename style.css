@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* <!-- nav bar --> */
+nav {
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
+.left-nav {
+    /* //background-color: ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 377px;
+}
+
+.signout {
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 32pt;
+    color: white;
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+li {
+    margin-left: 10px;
+}
+
+/* <!-- main content of website --> */
+main {
+    background-color: white;
+    color: white;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-column {
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    margin-right: 50px;
+}
+
+
+.blue-bar {
+    width: 400px;
+    background-color: aqua;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.topprofile {
+    /* max-width: 80px;
+    max-height: 80px;
+    margin-left: 35px;
+    margin-top: 30px; */
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.left-top {
+    width: 400px;
+    border: 3px solid silver;
+    min-height: 200px;
+    background-color: white;
+}
+
+.text-left {
+    padding-left: 20px;
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#mapmarker {
+    max-height: 15px;
+    max-width: 15px;
+}
+
+#gear {
+    max-height: 15px;
+    max-width: 15px;
+}
+
+.left-bottom {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin-top: 20px;
+    border: 3px solid silver;
+}
+
+.text-right {
+    /* padding: 20px; */
+    font-size: 20px;
+    color: black
+}
+
+#educate {
+    background-color: black;
+    font-size: 20px;
+    padding-inline: 30px;
+    color: white;
+    padding: 10px;
+}
+
+#textcenter {
+    padding: 35px;
+}
+
+#faded {
+    font-size: 18px;
+    color: grey;
+}
+
+.right-column {
+    height: 600px;
+    width: 300px;
+}
+
+#connection {
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px
+}
+
+.right-top {
+    width: 300px;
+    height: 200px;
+    outline: 3px solid silver;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.name-img {
+    display: flex;
+    color: black;
+}
+
+.people {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.icons {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.right-bottom {
+    width: 300px;
+    /* height: 300px; */
+    background-color: white;
+    margin-top: 40px;
+    outline: 3px solid silver
+}
+
+#connections {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-inline: 20px;
+    padding: 20px;
+}
+
+.connectionicon {
+    display: flex;
+    color: black;
+}
+
+.profileicon {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.bottomrow {
+    justify-content: space-between;
+    padding: 20px;
+    margin: 7px;
+}
+
+h3 {
+    background-color: white;
+    outline: 3px solid silver;
+    text-align: left;
+}
+
+.viewmore {
+    justify-content: center;
+    background-color: white;
+    outline: 3px solid silver;
+}
+
+.bottomview {
+    padding: 15px;
+    outline: 3px solid silver;
+    width: 300px;
+
+}
